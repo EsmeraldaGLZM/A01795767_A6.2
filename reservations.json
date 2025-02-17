@@ -1,0 +1,12 @@
+[
+    {"reservation_id": 1, "customer": {"customer_id": 1, "name": "Leonardo DiCaprio", "email": "leonardo@example.com"}, "hotel": {"hotel_id": 5, "name": "NIZUC Resort & Spa", "location": "Cancún, México"}},
+    {"reservation_id": 2, "customer": {"customer_id": 2, "name": "Scarlett Johansson", "email": "scarlett@example.com"}, "hotel": {"hotel_id": 8, "name": "Waldorf Astoria Los Cabos Pedregal", "location": "Cabo San Lucas, México"}},
+    {"reservation_id": 3, "customer": {"customer_id": 3, "name": "Brad Pitt", "email": "brad@example.com"}, "hotel": {"hotel_id": 12, "name": "Secrets Maroma Beach", "location": "Riviera Maya, México"}},
+    {"reservation_id": 4, "customer": {"customer_id": 4, "name": "Angelina Jolie", "email": "angelina@example.com"}, "hotel": {"hotel_id": 15, "name": "Four Seasons Resort Punta Mita", "location": "Punta Mita, México"}},
+    {"reservation_id": 5, "customer": {"customer_id": 5, "name": "Tom Cruise", "email": "tom@example.com"}, "hotel": {"hotel_id": 2, "name": "One&Only Palmilla", "location": "San José del Cabo, México"}},
+    {"reservation_id": 6, "customer": {"customer_id": 6, "name": "Jennifer Lawrence", "email": "jennifer@example.com"}, "hotel": {"hotel_id": 6, "name": "Rosewood Mayakoba", "location": "Riviera Maya, México"}},
+    {"reservation_id": 7, "customer": {"customer_id": 7, "name": "Chris Hemsworth", "email": "chris@example.com"}, "hotel": {"hotel_id": 18, "name": "El Dorado Maroma", "location": "Riviera Maya, México"}},
+    {"reservation_id": 8, "customer": {"customer_id": 8, "name": "Emma Watson", "email": "emma@example.com"}, "hotel": {"hotel_id": 10, "name": "The Cape, a Thompson Hotel", "location": "Cabo San Lucas, México"}},
+    {"reservation_id": 9, "customer": {"customer_id": 9, "name": "Robert Downey Jr.", "email": "robert@example.com"}, "hotel": {"hotel_id": 20, "name": "UNICO 20°87° Hotel Riviera Maya", "location": "Riviera Maya, México"}},
+    {"reservation_id": 10, "customer": {"customer_id": 10, "name": "Natalie Portman", "email": "natalie@example.com"}, "hotel": {"hotel_id": 3, "name": "Grand Velas Riviera Maya", "location": "Riviera Maya, México"}}
+]

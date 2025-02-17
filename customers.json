@@ -1,0 +1,22 @@
+[
+    {"customer_id": 1, "name": "Leonardo DiCaprio", "email": "leonardo@example.com"},
+    {"customer_id": 2, "name": "Scarlett Johansson", "email": "scarlett@example.com"},
+    {"customer_id": 3, "name": "Brad Pitt", "email": "brad@example.com"},
+    {"customer_id": 4, "name": "Angelina Jolie", "email": "angelina@example.com"},
+    {"customer_id": 5, "name": "Tom Cruise", "email": "tom@example.com"},
+    {"customer_id": 6, "name": "Jennifer Lawrence", "email": "jennifer@example.com"},
+    {"customer_id": 7, "name": "Chris Hemsworth", "email": "chris@example.com"},
+    {"customer_id": 8, "name": "Emma Watson", "email": "emma@example.com"},
+    {"customer_id": 9, "name": "Robert Downey Jr.", "email": "robert@example.com"},
+    {"customer_id": 10, "name": "Natalie Portman", "email": "natalie@example.com"},
+    {"customer_id": 11, "name": "Ryan Reynolds", "email": "ryan@example.com"},
+    {"customer_id": 12, "name": "Anne Hathaway", "email": "anne@example.com"},
+    {"customer_id": 13, "name": "Johnny Depp", "email": "johnny@example.com"},
+    {"customer_id": 14, "name": "Gal Gadot", "email": "gal@example.com"},
+    {"customer_id": 15, "name": "Keanu Reeves", "email": "keanu@example.com"},
+    {"customer_id": 16, "name": "Zendaya", "email": "zendaya@example.com"},
+    {"customer_id": 17, "name": "Dwayne Johnson", "email": "dwayne@example.com"},
+    {"customer_id": 18, "name": "Margot Robbie", "email": "margot@example.com"},
+    {"customer_id": 19, "name": "Chris Evans", "email": "evans@example.com"},
+    {"customer_id": 20, "name": "Meryl Streep", "email": "meryl@example.com"}
+]

@@ -1,0 +1,22 @@
+[
+    {"hotel_id": 1, "name": "Las Ventanas al Paraíso", "location": "Los Cabos, México"},
+    {"hotel_id": 2, "name": "One&Only Palmilla", "location": "San José del Cabo, México"},
+    {"hotel_id": 3, "name": "Grand Velas Riviera Maya", "location": "Riviera Maya, México"},
+    {"hotel_id": 4, "name": "Hotel Xcaret México", "location": "Playa del Carmen, México"},
+    {"hotel_id": 5, "name": "NIZUC Resort & Spa", "location": "Cancún, México"},
+    {"hotel_id": 6, "name": "Rosewood Mayakoba", "location": "Riviera Maya, México"},
+    {"hotel_id": 7, "name": "Marquis Los Cabos", "location": "Los Cabos, México"},
+    {"hotel_id": 8, "name": "Waldorf Astoria Los Cabos Pedregal", "location": "Cabo San Lucas, México"},
+    {"hotel_id": 9, "name": "Banyan Tree Mayakoba", "location": "Riviera Maya, México"},
+    {"hotel_id": 10, "name": "The Cape, a Thompson Hotel", "location": "Cabo San Lucas, México"},
+    {"hotel_id": 11, "name": "Casa Malca", "location": "Tulum, México"},
+    {"hotel_id": 12, "name": "Secrets Maroma Beach", "location": "Riviera Maya, México"},
+    {"hotel_id": 13, "name": "Live Aqua Beach Resort", "location": "Cancún, México"},
+    {"hotel_id": 14, "name": "The Ritz-Carlton Cancún", "location": "Cancún, México"},
+    {"hotel_id": 15, "name": "Four Seasons Resort Punta Mita", "location": "Punta Mita, México"},
+    {"hotel_id": 16, "name": "Chablé Resort & Spa", "location": "Yucatán, México"},
+    {"hotel_id": 17, "name": "Hotel Esencia", "location": "Tulum, México"},
+    {"hotel_id": 18, "name": "El Dorado Maroma", "location": "Riviera Maya, México"},
+    {"hotel_id": 19, "name": "Hacienda San José", "location": "Yucatán, México"},
+    {"hotel_id": 20, "name": "UNICO 20°87° Hotel Riviera Maya", "location": "Riviera Maya, México"}
+]
