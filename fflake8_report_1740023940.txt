@@ -1,0 +1,20 @@
+Reservation_System.py:7:1: E303 too many blank lines (3)
+Reservation_System.py:31:19: W291 trailing whitespace
+Reservation_System.py:40:5: E303 too many blank lines (2)
+Reservation_System.py:41:101: E501 line too long (122 > 100 characters)
+Reservation_System.py:42:1: W293 blank line contains whitespace
+Reservation_System.py:46:69: W291 trailing whitespace
+Reservation_System.py:54:35: W291 trailing whitespace
+Reservation_System.py:63:18: W291 trailing whitespace
+Reservation_System.py:71:5: E303 too many blank lines (2)
+Reservation_System.py:76:5: E303 too many blank lines (2)
+Reservation_System.py:94:101: E501 line too long (108 > 100 characters)
+Reservation_System.py:99:5: E303 too many blank lines (3)
+Reservation_System.py:109:5: E303 too many blank lines (2)
+Reservation_System.py:114:101: E501 line too long (105 > 100 characters)
+Reservation_System.py:124:5: E303 too many blank lines (2)
+Reservation_System.py:124:36: W291 trailing whitespace
+Reservation_System.py:128:5: E303 too many blank lines (2)
+Reservation_System.py:131:59: W291 trailing whitespace
+Reservation_System.py:132:101: E501 line too long (112 > 100 characters)
+flake8:0:1: E902 FileNotFoundError: [Errno 2] No such file or directory: 'flake8'

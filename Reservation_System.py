@@ -1,6 +1,5 @@
 import json
 import os
-import unittest
 import time
 
 
@@ -12,7 +11,11 @@ class Hotel:
         self.location = location
 
     def to_dict(self):
-        return {"hotel_id": self.hotel_id, "name": self.name, "location": self.location}
+        return {
+            "hotel_id": self.hotel_id,
+            "name": self.name,
+            "location": self.location
+        }
 
 
 class Customer:
@@ -23,7 +26,11 @@ class Customer:
         self.email = email
 
     def to_dict(self):
-        return {"customer_id": self.customer_id, "name": self.name, "email": self.email}
+        return {
+            "customer_id": self.customer_id,
+            "name": self.name,
+            "email": self.email
+        }
 
 
 class Reservation:
@@ -34,7 +41,11 @@ class Reservation:
         self.hotel = hotel
 
     def to_dict(self):
-        return {"reservation_id": self.reservation_id, "customer": self.customer.to_dict(), "hotel": self.hotel.to_dict()}
+        return {
+            "reservation_id": self.reservation_id,
+            "customer": self.customer.to_dict(),
+            "hotel": self.hotel.to_dict()
+        }
 
 
 class ReservationSystem:
@@ -85,7 +96,10 @@ class ReservationSystem:
         self.save_data(self.customer_file, self.customers)
 
     def delete_customer(self, customer_id):
-        self.customers = [customer for customer in self.customers if customer["customer_id"] != customer_id]
+        self.customers = [
+            customer for customer in self.customers
+            if customer["customer_id"] != customer_id
+        ]
         self.save_data(self.customer_file, self.customers)
 
     def modify_customer(self, customer_id, name=None, email=None):
@@ -102,7 +116,10 @@ class ReservationSystem:
         self.save_data(self.reservation_file, self.reservations)
 
     def cancel_reservation(self, reservation_id):
-        self.reservations = [res for res in self.reservations if res["reservation_id"] != reservation_id]
+        self.reservations = [
+            res for res in self.reservations
+            if res["reservation_id"] != reservation_id
+        ]
         self.save_data(self.reservation_file, self.reservations)
 
     def display_hotels(self):
@@ -117,11 +134,17 @@ class ReservationSystem:
     def run_flake8(self):
         """Ejecuta Flake8 y guarda el reporte en un archivo único."""
         timestamp = int(time.time())
-        report_filename = f"flake8_report_{timestamp}.txt"
-        os.system(f"flake8 {__file__} --max-line-length=100 > {report_filename}")
-        print(f"Reporte de Flake8 generado en {report_filename}")
+        flake8_report = f"flake8_report_{timestamp}.txt"
+        command = (
+            "py -3.9 -m flake8 Reservation_System.py "
+            "--max-line-length=100 > " + flake8_report
+        )
+        os.system(command)
+        print(f"Reporte de Flake8 generado en {flake8_report}")
 
 
 if __name__ == "__main__":
-    reservation_system = ReservationSystem("hotels.json", "customers.json", "reservations.json")
+    reservation_system = ReservationSystem(
+        "hotels.json", "customers.json", "reservations.json"
+    )
     reservation_system.run_flake8()
